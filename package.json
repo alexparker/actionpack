@@ -1,0 +1,20 @@
+{
+  "name": "actionpack",
+  "version": "0.0.1",
+  "description": "Extra layer of sugar available for actionhero to make dev a little more rapid",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alexparker/actionpack.git"
+  },
+  "keywords": [
+    "actionhero",
+    "utility",
+    "framework"
+  ],
+  "depedencies": {
+    "lodash-node": "latest"
+  },
+  "author": "Alex Parker",
+  "license": "MIT"
+}
