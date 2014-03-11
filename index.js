@@ -1,6 +1,6 @@
 var actionpack = {
-  Action: require('./lib/action'),
-  Route: require('./lib/route')
+  Action: require(__dirname + '/lib/action'),
+  Route: require(__dirname + '/lib/route')
 };
 
 module.exports = actionpack;
