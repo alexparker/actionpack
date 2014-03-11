@@ -1,6 +1,6 @@
 {
   "name": "actionpack",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Extra layer of sugar available for actionhero to make dev a little more rapid",
   "main": "index.js",
   "repository": {
