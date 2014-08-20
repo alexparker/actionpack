@@ -1,10 +1,10 @@
-actionpack
+Action Pack ReadMe
 ==========
 
 ### Actions
 
-```
-# /actions/things.js
+```javascript
+// /actions/things.js
 
 var Action = require(‘actionpack’).Action;
 
