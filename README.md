@@ -1,7 +1,7 @@
 Action Pack ReadMe
 ==========
 
-### Actions
+### Actions Helper
 
 ```javascript
 // /actions/things.js
