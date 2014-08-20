@@ -32,25 +32,20 @@ exports.action = Action('things', function() {
 }
 ```
 
-or coffescript
+or coffescript (not tried yet)
 
 ```coffee
 # /actions/things.js
-
 Action = require("actionpack").Action
 exports.action = Action "things", ->
   
-  # this.api //object available
-  # this.json //alias for connection.response
-  _this = this
-  @dbOfYourChoice.find "things", (err, result) ->
-    _this.json.things = result
-    _this.next()
-    return
-
-  return
-,
+  # @api //object available
+  # @json //alias for connection.response
   
+  @dbOfYourChoice.find "things", (err, result) =>
+    @json.things = result
+    @next()
+,
   # ... additional options
   name: "" # default is set from first param of Action()
   description: ""
@@ -60,5 +55,6 @@ exports.action = Action "things", ->
 
   blockedConnectionTypes: []
   outputExample: {} # used for self documentation of ActionHero
+
 ```
 
