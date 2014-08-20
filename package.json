@@ -1,20 +1,26 @@
 {
   "name": "actionpack",
-  "version": "0.0.4",
-  "description": "Extra layer of sugar available for actionhero to make dev a little more rapid",
+  "version": "0.0.5",
+  "description": "Helper objects to leverage for faster ActionHero development",
   "main": "index.js",
+  "dependencies": {
+    "lodash-node": "^2.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/alexparker/actionpack.git"
+    "url": "https://github.com/alexparker/actionpack.git"
   },
   "keywords": [
-    "actionhero",
-    "utility",
-    "framework"
+    "actionhero"
   ],
-  "depedencies": {
-    "lodash-node": "latest"
-  },
   "author": "Alex Parker",
-  "license": "MIT"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexparker/actionpack/issues"
+  },
+  "homepage": "https://github.com/alexparker/actionpack"
 }
